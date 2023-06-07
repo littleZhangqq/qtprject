@@ -19,7 +19,7 @@ LoginDialog::LoginDialog(QWidget *parent) :
 void LoginDialog::quitClick(){
     this->hide();
     qDebug() << "退出点击" ;
-}//111
+}//1112222
 
 void LoginDialog::recvButtonId(int id){
     qDebug() << id;
