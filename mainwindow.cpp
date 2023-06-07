@@ -19,6 +19,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->pwdEdit->setEchoMode(QLineEdit::Password);
     ui->loginButton->setGeometry(80,330,60,40);
     ui->quitButton->setGeometry(280,330,60,40);
+    ui->accountEdit->setMaxLength(30);
     connect(ui->quitButton, SIGNAL(clicked()), this, SLOT(quitClick()));
 }
 
